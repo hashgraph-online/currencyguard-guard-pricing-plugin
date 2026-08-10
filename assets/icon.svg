@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">CurrencyGuard</title>
+  <desc id="desc">A teal shield around a currency symbol.</desc>
+  <rect width="64" height="64" rx="16" fill="#0D4F5C"/>
+  <path d="M32 10 49 17v13c0 11-7.4 19.6-17 24-9.6-4.4-17-13-17-24V17l17-7Z" fill="#F2C94C"/>
+  <path d="M34.2 18.5c-5.8 0-10.2 3.2-10.2 7.6 0 4.2 3.3 6 9.3 7.4 4.4 1 5.8 1.8 5.8 3.4 0 1.9-2.1 3.2-5.4 3.2-3.5 0-6.3-1.3-8.7-3.8l-3.5 3.7c2.5 2.8 6.2 4.5 10.8 5v4.1h3.7v-4.1c5.5-.6 8.8-3.7 8.8-8.3 0-4.7-3.7-6.6-9.7-8-4.2-.9-5.4-1.7-5.4-3.1 0-1.6 1.8-2.7 4.8-2.7 2.8 0 5.2 1 7.3 2.8l3.1-3.9c-2.4-2-5.3-3.2-8.8-3.6v-3.6h-3.7v3.6Z" fill="#0D4F5C"/>
+</svg>
