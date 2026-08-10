@@ -35,3 +35,25 @@ jobs:
           fail_on_severity: high
           format: sarif
           upload_sarif: true
+
+      - name: HOL Plugin Scanner full report
+        if: ${{ !cancelled() }}
+        uses: hashgraph-online/ai-plugin-scanner-action@8f0a503ca2a70c1968a9a883e11fdff5737b7909 # v1.2.514 (latest)
+        with:
+          plugin_dir: "."
+          mode: scan
+          profile: public-marketplace
+          min_score: 80
+          fail_on_severity: high
+          format: markdown
+          output: hol-plugin-scan-report.md
+          write_step_summary: true
+
+      - name: Upload HOL plugin scan report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: currencyguard-plugin-scan-report
+          path: hol-plugin-scan-report.md
+          if-no-files-found: warn
+          retention-days: 14
