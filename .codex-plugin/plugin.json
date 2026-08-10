@@ -23,6 +23,6 @@
     "brandColor": "#0D4F5C",
     "composerIcon": "./assets/icon.svg",
     "logo": "./assets/icon.svg",
-    "screenshots": []
+    "screenshots": ["./assets/currencyguard-workflow.svg"]
   }
 }
